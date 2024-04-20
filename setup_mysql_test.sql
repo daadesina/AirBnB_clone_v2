@@ -1,4 +1,4 @@
--- prepares a MySQL test server for the project
+-- prepares a MySQL test server for the AirBnb clone
 
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
 CREATE USER IF NOT EXISTS 'hbnb_test'@'localhost' IDENTIFIED BY 'hbnb_test_pwd';
